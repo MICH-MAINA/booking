@@ -1,0 +1,6 @@
+CREATE TABLE UserDetails (
+   Id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+   UserName VARCHAR(70) NOT NULL UNIQUE,
+   UserPassword VARCHAR (255) NOT NULL,
+   
+   );

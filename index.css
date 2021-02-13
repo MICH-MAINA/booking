@@ -1,0 +1,70 @@
+.container {
+  background: rgba(0, 0, 0, 0.5);
+}
+.container{
+  margin-top: 100px;
+  margin-left: 25%;
+  margin-right: 20%;
+  border: 2px solid black;
+  padding: 30px 20px 30px 10%; 
+
+}
+.container li{
+  list-style: none;
+  padding-top: 10px;
+}
+/*placeholder text*/
+::placeholder {
+  color: white ;
+  opacity: 0.8;
+  font-size: medium;
+}
+
+/*remove the default border */
+.container input{
+  padding: 5px;
+  outline: none;
+  font-weight: 500;
+  background: none;
+  color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+ 
+}
+input[type= text], input[type=password]{
+  width: 70%;
+}
+/*label*/
+.container label {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #ffffff;
+}
+/*focus on the input*/
+input:focus, input:active, input:hover{
+  border-color: transparent;
+  border-bottom: 3px solid #ffffff;
+  transition-duration: width 0.4s ease-in-out;
+}
+
+
+.container button {
+  padding: 6px 25px;
+  outline: none;
+  border-radius: 1px;
+}
+/*button text*/
+
+.container button{
+  font-size: medium;
+  font-weight: bolder;
+  font-size: large;
+  font-family: 'Source Sans Pro', sans-serif;
+  background: rgb(205,133,63,0.1);
+  color: #ffffff;
+  outline: none;
+}
+/*create account*/
+#C-Acc {
+  text-align: center;
+  font-size: medium;
+}
